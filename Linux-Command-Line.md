@@ -1,8 +1,10 @@
 # Linux Command Line
 
-Contents of a command:
+
+**Command Structure:**
 
 Command - Options - Arguments
 
-ls       -a        /var/log
+`ls -a /var/log`
+
 
