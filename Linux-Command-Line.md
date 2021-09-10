@@ -144,3 +144,16 @@ ls --help -> Gives information about the command but sometimes will refer you to
 
 </br>
 
+# 5- Super User
+
+- **sudo** -> Will give you super user permissions
+
+- **sudo -k** -> Will exit super user mode
+
+- **sudo -s** -> Will make you access the root user
+
+- **exit** -> Type exit to return from the root user to your normal user
+
+
+</br>
+
