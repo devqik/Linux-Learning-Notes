@@ -73,23 +73,23 @@ ls --help -> Gives information about the command but sometimes will refer you to
 
 </br>
 
-- file myfile.txt -> Determine the type of the file
+- **file myfile.txt** -> Determine the type of the file
 
-- stat myfile.txt -> Display ownership, modification information , etc ...
+- **stat myfile.txt** -> Display ownership, modification information , etc ...
 
-- cd -> Change directory
+- **cd** -> Change directory
 
-- pwd -> Print working directory
+- **pwd** -> Print working directory
 
-- cd sample\ project -> the back slash is used to escape the special characters and make bash know that it is a part of the directory name and not a second argument
+- **cd sample\ project** -> the back slash is used to escape the special characters and make bash know that it is a part of the directory name and not a second argument
 
-- ls -R -> List the contents of a folder recursively, meaning that it will also list the contents of each sub-folder
+- **ls -R** -> List the contents of a folder recursively, meaning that it will also list the contents of each sub-folder
 
-- cd .. -> The .. represents the parent directory of the current directory
+- **cd ..** -> The .. represents the parent directory of the current directory
 
-- cd - -> Will take you to the previously used directory
+- **cd -** -> Will take you to the previously used directory
 
-- cd -> Will take you to your home directory
+- **cd** -> Will take you to your home directory
 
 
 </br>
@@ -98,15 +98,15 @@ ls --help -> Gives information about the command but sometimes will refer you to
 
 </br>
 
-- mkdir new_folder -> Will create a new folder inside the current work directory
+- **mkdir new_folder** -> Will create a new folder inside the current work directory
 
-- mkdir hello_world/new_folder -> Will create a new folder inside the sub folder hello_world
+- **mkdir hello_world/new_folder** -> Will create a new folder inside the sub folder hello_world
 
-- mkdir hello_world1 hello_world2 hello_world3 -> mkdir can create multiple folders at once
+- **mkdir hello_world1 hello_world2 hello_world3** -> mkdir can create multiple folders at once
 
-- mkdir -p hello_word/devops/project -> Will create the parent folders hello_world and devops if they are not created yet
+- **mkdir -p hello_word/devops/project** -> Will create the parent folders hello_world and devops if they are not created yet
 
-- rmdir hello_world -> Removes the folder hello_world , but it has to be empty to be removed
+- **rmdir hello_world** -> Removes the folder hello_world , but it has to be empty to be removed
 
 </br>
 
@@ -114,32 +114,32 @@ ls --help -> Gives information about the command but sometimes will refer you to
 
 </br>
 
-- cp devops.txt devops2.txt -> Will copy the devops.txt file to a new file called devops2.txt
+- **cp devops.txt devops2.txt** -> Will copy the devops.txt file to a new file called devops2.txt
 
-- cp devops.txt project/pipeline/ -> Will copy the file devops.txt to the project/pipeline folder
+- **cp devops.txt project/pipeline/** -> Will copy the file devops.txt to the project/pipeline folder
 
-- mv devops.txt project/pipeline -> Will move the devops.txt file to the desired folder
+- **mv devops.txt project/pipeline** -> Will move the devops.txt file to the desired folder
 
-- mv devops.txt project/pipeline/script.txt -> Will move the devops.txt file to the desired directory and rename it to script.txt
+- **mv devops.txt project/pipeline/script.txt** -> Will move the devops.txt file to the desired directory and rename it to script.txt
 
-- mv *.txt project/pipeline -> Move every file with its name containing .txt in the end to the desired directory
+- **mv \*.txt project/pipeline** -> Move every file with its name containing .txt in the end to the desired directory
 
-- mv project/pipeline/* . -> Move everything in the folder project/pipeline to the current working directory
+- **mv project/pipeline/\* .** -> Move everything in the folder project/pipeline to the current working directory
 
-- rm devops?.txt -> If you have files called devops1.txt, devops2.txt, devops3.txt ... etc, this command will delete all the files with the name devops followed by 1 charachter .txt
+- **rm devops?.txt** -> If you have files called devops1.txt, devops2.txt, devops3.txt ... etc, this command will delete all the files with the name devops followed by 1 charachter .txt
 
-- rm -r project -> Will delete the contents of project folder recursively
+- **rm -r project** -> Will delete the contents of project folder recursively
 
 
 </br>
 
 ## Search For Files
 
-- find . -name "devops*" -> Search for a file or directory with devops in its name followed by any charachters
+- **find . -name "devops\*"**-> Search for a file or directory with devops in its name followed by any charachters
 
-- find . -name "*.txt" -> Will search for any file with .txt at the end of its name
+- **find . -name "*.txt"** -> Will search for any file with .txt at the end of its name
 
-- find . -name "*d*" -> Will search for any file or directory with letter "d" in its name
+- **find . -name "*d*"** -> Will search for any file or directory with letter "d" in its name
 
 
 </br>
