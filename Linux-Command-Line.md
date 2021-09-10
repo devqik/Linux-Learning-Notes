@@ -223,10 +223,20 @@ A = All
 **Example:**
 
 
-```bash
+```
 chmod 755 test.sh
 
 chmod a-x test.sh
 ```
 
 </br>
+
+> [!NOTE]
+> To change ownership of a file use **chown**
+
+</br>
+
+```
+chown root test.sh
+```
+
