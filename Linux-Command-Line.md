@@ -157,3 +157,76 @@ ls --help -> Gives information about the command but sometimes will refer you to
 
 </br>
 
+# 6- File Permissions
+
+</br>
+
+
+```html
+rwx-rwx-rwx
+
+User - Group - Others
+
+R -> Read
+
+W -> Write
+
+X -> Excute
+```
+
+</br>
+
+## Octal Values
+
+</br>
+
+|Read  |Write  |Excute  |Result  |
+|---------|---------|---------|---------|
+|r     |    w     |     x    |     7    |
+|r     |     -    |      x   |      5   |
+|r     |      -   |       -  |       4  |
+
+
+Read = 4
+
+Write = 2 
+
+Excute = 1
+
+
+</br>
+
+## Symbolic Values
+
+</br>
+
+
+```html
+U = User
+
+G = Group
+
+O = Others
+
+A = All
+```
+
+
+"+" Will add the desired permissions to the user, group, other or all
+
+"-" Will remove the desired permissions
+
+"=" Will remove all the permissions and add the new values
+
+</br>
+
+**Example:**
+
+
+```bash
+chmod 755 test.sh
+
+chmod a-x test.sh
+```
+
+</br>
