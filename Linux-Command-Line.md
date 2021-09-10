@@ -137,9 +137,9 @@ ls --help -> Gives information about the command but sometimes will refer you to
 
 - **find . -name "devops\*"**-> Search for a file or directory with devops in its name followed by any charachters
 
-- **find . -name "*.txt"** -> Will search for any file with .txt at the end of its name
+- **find . -name "\*.txt"** -> Will search for any file with .txt at the end of its name
 
-- **find . -name "*d*"** -> Will search for any file or directory with letter "d" in its name
+- **find . -name "\*d\*"** -> Will search for any file or directory with letter "d" in its name
 
 
 </br>
